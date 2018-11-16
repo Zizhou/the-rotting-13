@@ -8,4 +8,6 @@ version = "0.17"
 
 [dependencies.discord]
 default_features = false
-git = "https://github.com/Bocom/discord-rs"
+#git = "https://github.com/Bocom/discord-rs"
+
+git = "https://github.com/tinaun/discord-rs"

@@ -37,7 +37,7 @@ fn main() {
         &env::var("DISCORD_TOKEN").expect("Expected token")
     ).expect("login failed!");
 
-    let (mut connection, ready) = discord.connect().expect("Connection failed");
+    let (mut connection, ready) = discord.connect().expect("Connection f-f-failed");
     let mut state = State::new(ready);
 
     println!("Connected!");
